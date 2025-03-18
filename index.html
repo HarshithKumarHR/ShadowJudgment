@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Judgment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shadow Judgment</h1>
+        <p>Select a crime and face judgment.</p>
+        
+        <select id="crimeSelect">
+            <option value="" disabled selected>Choose a crime...</option>
+            <option value="lying">Lying</option>
+            <option value="stealing">Stealing</option>
+            <option value="cheating">Cheating Someone</option>
+            <option value="disrespecting">Disrespecting Parents</option>
+            <option value="violence">Committing Violence</option>
+            <option value="adultery">Adultery (Cheating in Relationship)</option>
+            <option value="eating_meat">Excessive Meat Consumption</option>
+            <option value="betrayal">Betrayal of Trust</option>
+        </select>
+
+        <button onclick="showPunishment()">Get Judgment</button>
+
+        <p id="punishment"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

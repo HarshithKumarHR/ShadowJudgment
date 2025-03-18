@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background: #111;
+    border: 2px solid red;
+    box-shadow: 0 0 15px red;
+    border-radius: 10px;
+}
+
+h1 {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+select, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover {
+    background: darkred;
+    cursor: pointer;
+}
+
+#punishment {
+    font-size: 20px;
+    margin-top: 20px;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 0 0 10px yellow;
+}
